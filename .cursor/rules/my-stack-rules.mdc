@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Technical stack
+
+- Python as main language
+- Python package concurrent.futures to solve concurrence problems
+- JSON to storage 
+- Separate enviroments for dev, test and prod
+- Python pytests to make unit tests
+

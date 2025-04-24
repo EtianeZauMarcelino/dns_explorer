@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "timestamp": "2025-04-14T22:37:51.572380",
+    "dns_server": "default",
+    "record_type": "ns",
+    "query_time": 0.022027015686035156
+  },
+  "domains": [
+    {
+      "domain": "example.com",
+      "queries": {
+        "ns": {
+          "status": "success",
+          "records": [
+            {
+              "type": "NS",
+              "value": "a.iana-servers.net.",
+              "ttl": 43925
+            },
+            {
+              "type": "NS",
+              "value": "b.iana-servers.net.",
+              "ttl": 43925
+            }
+          ],
+          "query_time": 0.020015239715576172
+        }
+      }
+    }
+  ]
+}

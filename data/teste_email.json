@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "timestamp": "2025-04-16T13:27:47.052183",
+    "dns_server": "default",
+    "record_type": "email",
+    "query_time": 2.567906141281128
+  },
+  "domains": [
+    {
+      "domain": "example.com",
+      "queries": {
+        "status": "success",
+        "spf": {
+          "status": "success",
+          "records": [
+            {
+              "type": "SPF",
+              "value": "v=spf1 -all",
+              "ttl": 86399,
+              "valid": true,
+              "security_level": "high",
+              "issues": [],
+              "recommendation": null
+            }
+          ],
+          "validation": {
+            "valid": true,
+            "issues": [],
+            "recommendation": null,
+            "security_level": "high"
+          }
+        },
+        "dmarc": {
+          "status": "success",
+          "records": [
+            {
+              "type": "DMARC",
+              "value": "v=DMARC1;p=reject;sp=reject;adkim=s;aspf=s",
+              "ttl": 3600,
+              "valid": true,
+              "security_level": "high",
+              "issues": [
+                "N\u00e3o h\u00e1 endere\u00e7os para envio de relat\u00f3rios (rua= ou ruf=)"
+              ],
+              "recommendation": "Considere adicionar endere\u00e7os para receber relat\u00f3rios DMARC"
+            }
+          ],
+          "validation": {
+            "valid": true,
+            "issues": [
+              "N\u00e3o h\u00e1 endere\u00e7os para envio de relat\u00f3rios (rua= ou ruf=)"
+            ],
+            "recommendation": "Considere adicionar endere\u00e7os para receber relat\u00f3rios DMARC",
+            "security_level": "high"
+          }
+        },
+        "dkim": {
+          "status": "success",
+          "records": [
+            {
+              "type": "DKIM",
+              "selector": "default",
+              "value": "v=DKIM1; p=",
+              "ttl": 3600,
+              "valid": false,
+              "security_level": "low",
+              "issues": [
+                "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado"
+              ],
+              "recommendation": null
+            },
+            {
+              "type": "DKIM",
+              "selector": "dkim",
+              "value": "v=DKIM1; p=",
+              "ttl": 3600,
+              "valid": false,
+              "security_level": "low",
+              "issues": [
+                "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado"
+              ],
+              "recommendation": null
+            },
+            {
+              "type": "DKIM",
+              "selector": "mail",
+              "value": "v=DKIM1; p=",
+              "ttl": 3599,
+              "valid": false,
+              "security_level": "low",
+              "issues": [
+                "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado"
+              ],
+              "recommendation": null
+            },
+            {
+              "type": "DKIM",
+              "selector": "email",
+              "value": "v=DKIM1; p=",
+              "ttl": 3600,
+              "valid": false,
+              "security_level": "low",
+              "issues": [
+                "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado"
+              ],
+              "recommendation": null
+            },
+            {
+              "type": "DKIM",
+              "selector": "selector1",
+              "value": "v=DKIM1; p=",
+              "ttl": 3600,
+              "valid": false,
+              "security_level": "low",
+              "issues": [
+                "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado"
+              ],
+              "recommendation": null
+            },
+            {
+              "type": "DKIM",
+              "selector": "selector2",
+              "value": "v=DKIM1; p=",
+              "ttl": 3599,
+              "valid": false,
+              "security_level": "low",
+              "issues": [
+                "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado"
+              ],
+              "recommendation": null
+            },
+            {
+              "type": "DKIM",
+              "selector": "google",
+              "value": "v=DKIM1; p=",
+              "ttl": 3600,
+              "valid": false,
+              "security_level": "low",
+              "issues": [
+                "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado"
+              ],
+              "recommendation": null
+            },
+            {
+              "type": "DKIM",
+              "selector": "k1",
+              "value": "v=DKIM1; p=",
+              "ttl": 3600,
+              "valid": false,
+              "security_level": "low",
+              "issues": [
+                "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado"
+              ],
+              "recommendation": null
+            }
+          ],
+          "selectors_found": [
+            "default",
+            "dkim",
+            "mail",
+            "email",
+            "selector1",
+            "selector2",
+            "google",
+            "k1"
+          ],
+          "validation": {
+            "valid": false,
+            "issues": [
+              "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+              "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+              "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+              "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+              "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+              "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+              "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+              "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado"
+            ],
+            "recommendation": null,
+            "security_level": "low"
+          }
+        },
+        "dnssec": {
+          "status": "success",
+          "secure": true,
+          "records": [
+            {
+              "type": "DNSKEY",
+              "flags": 256,
+              "protocol": 3,
+              "algorithm": 13,
+              "key": "L1QKNYXu7+Bn+2xzyYvDFHQnSUk0nOViD5lFc0+BKUjPKbYWJdW/aatti5pA9P/3uAgOYyTaJurJUYUIJCFaDQ==",
+              "ttl": 3277
+            },
+            {
+              "type": "DNSKEY",
+              "flags": 256,
+              "protocol": 3,
+              "algorithm": 13,
+              "key": "CM99+SxXM4fJa/SLCi4i9LNIIxCP2JqIj4L9iod3AhxKaA7wzAS+PmleRfHjd9X/ArYxzc3mwwPreUTn17Q1eA==",
+              "ttl": 3277
+            },
+            {
+              "type": "DNSKEY",
+              "flags": 257,
+              "protocol": 3,
+              "algorithm": 13,
+              "key": "kXKkvWU3vGYfTJGl3qBd4qhiWp5aRs7YtkCJxD2d+t7KXqwahww5IgJtxJT2yFItlggazyfXqJEVOmMJ3qT0tQ==",
+              "ttl": 3277
+            },
+            {
+              "type": "DS",
+              "key_tag": 370,
+              "algorithm": 13,
+              "digest_type": 2,
+              "digest": "be74359954660069d5c63d200c39f5603827d7dd02b56f120ee9f3a86764247c",
+              "ttl": 77070
+            }
+          ]
+        },
+        "overall_assessment": {
+          "security_score": 10,
+          "max_score": 10,
+          "security_level": "high",
+          "issues": [
+            "N\u00e3o h\u00e1 endere\u00e7os para envio de relat\u00f3rios (rua= ou ruf=)",
+            "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+            "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+            "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+            "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+            "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+            "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+            "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado",
+            "A chave p\u00fablica est\u00e1 vazia, indicando que o DKIM foi revogado"
+          ],
+          "recommendations": [
+            "Considere adicionar endere\u00e7os para receber relat\u00f3rios DMARC"
+          ]
+        }
+      }
+    }
+  ]
+}

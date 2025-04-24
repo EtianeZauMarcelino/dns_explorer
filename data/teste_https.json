@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "timestamp": "2025-04-16T13:26:10.553724",
+    "dns_server": "default",
+    "record_type": "https",
+    "query_time": 0.5332016944885254
+  },
+  "domains": [
+    {
+      "domain": "example.com",
+      "queries": {
+        "https": {
+          "status": "success",
+          "records": [
+            {
+              "type": "A",
+              "value": "96.7.128.175",
+              "ttl": 289
+            },
+            {
+              "type": "A",
+              "value": "23.215.0.138",
+              "ttl": 289
+            },
+            {
+              "type": "A",
+              "value": "23.215.0.136",
+              "ttl": 289
+            },
+            {
+              "type": "A",
+              "value": "96.7.128.198",
+              "ttl": 289
+            },
+            {
+              "type": "A",
+              "value": "23.192.228.80",
+              "ttl": 289
+            },
+            {
+              "type": "A",
+              "value": "23.192.228.84",
+              "ttl": 289
+            },
+            {
+              "type": "AAAA",
+              "value": "2600:1406:3a00:21::173e:2e66",
+              "ttl": 290
+            },
+            {
+              "type": "AAAA",
+              "value": "2600:1408:ec00:36::1736:7f31",
+              "ttl": 290
+            },
+            {
+              "type": "AAAA",
+              "value": "2600:1406:3a00:21::173e:2e65",
+              "ttl": 290
+            },
+            {
+              "type": "AAAA",
+              "value": "2600:1406:bc00:53::b81e:94c8",
+              "ttl": 290
+            },
+            {
+              "type": "AAAA",
+              "value": "2600:1408:ec00:36::1736:7f24",
+              "ttl": 290
+            },
+            {
+              "type": "AAAA",
+              "value": "2600:1406:bc00:53::b81e:94ce",
+              "ttl": 290
+            },
+            {
+              "type": "CERTIFICATE",
+              "issuer": "CN=DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+              "subject": "CN=*.example.com",
+              "valid_from": "2025-01-15T00:00:00",
+              "valid_until": "2026-01-15T23:59:59",
+              "days_remaining": 274,
+              "is_valid": true,
+              "sans": [
+                "DNS:*.example.com",
+                "DNS:example.com"
+              ],
+              "signature_algorithm": "ecdsa-with-SHA384",
+              "security_level": "high",
+              "issues": [],
+              "recommendations": []
+            }
+          ],
+          "query_time": 0.531195878982544
+        }
+      }
+    }
+  ]
+}
